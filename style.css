@@ -1,0 +1,167 @@
+/* General Styling */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    line-height: 1.6;
+
+    background: #f4f4f9;
+
+    color: #333;
+
+}
+
+/* Header */
+
+header {
+
+    background: #222;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+/* About Section */
+
+#about {
+
+    text-align: center;
+
+    padding: 30px;
+
+    background: white;
+
+    margin: 20px;
+
+    border-radius: 10px;
+
+}
+
+#about img {
+
+    width: 200px;
+
+    height: auto;
+
+    border-radius: 50%;
+
+    margin: 15px 0;
+
+}
+
+/* Skills Section */
+
+#skills {
+
+    background: #e6e6fa;
+
+    padding: 20px;
+
+    margin: 20px;
+
+    border-radius: 10px;
+
+}
+
+#skills ul {
+
+    list-style: none;
+
+    padding: 0;
+
+}
+
+#skills li {
+
+    background: #444;
+
+    color: white;
+
+    margin: 5px 0;
+
+    padding: 8px;
+
+    border-radius: 5px;
+
+}
+
+/* Contact Form */
+
+#contact {
+
+    background: white;
+
+    padding: 20px;
+
+    margin: 20px;
+
+    border-radius: 10px;
+
+}
+
+form {
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+form label {
+
+    margin-top: 10px;
+
+    font-weight: bold;
+
+}
+
+form input, form textarea, form button {
+
+    margin-top: 5px;
+
+    padding: 10px;
+
+    border: 1px solid #888;
+
+    border-radius: 5px;
+
+}
+
+form button {
+
+    background: #222;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+form button:hover {
+
+    background: #444;
+
+}
+
+/* Footer */
+
+footer {
+
+    text-align: center;
+
+    padding: 15px;
+
+    background: #222;
+
+    color: white;
+
+}
